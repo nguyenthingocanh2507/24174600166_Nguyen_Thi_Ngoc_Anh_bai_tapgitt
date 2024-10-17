@@ -266,6 +266,58 @@ From https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai
  * branch            main       -> FETCH_HEAD
 Already up to date.
 câu 8
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/main_folder (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+Your branch is up to date with 'origin/branch_1'.
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/main_folder (branch_1)
+$ cd ..
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (branch_1)
+$ git checkout branch_5
+Switched to branch 'branch_5'
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (branch_5)
+$  echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non  metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan  sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el  dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam  ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent  per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis  ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula  auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim. ">text_branch_1.txt
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (branch_5)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (branch_5)
+$ git commit -m " chinh sua branch_1 trong branch_5"
+[branch_5 9bce639]  chinh sua branch_1 trong branch_5
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 646 bytes | 646.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt.git
+   f2bf512..9bce639  branch_5 -> branch_5
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (branch_5)
+$ git push origin --delete branch_5
+To https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt.git
+ - [deleted]         branch_5
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was 9bce639).
+câu 9 làm trên pull request
+
+
 
 
 
