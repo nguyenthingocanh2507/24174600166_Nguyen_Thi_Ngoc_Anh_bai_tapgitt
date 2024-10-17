@@ -217,4 +217,56 @@ Fast-forward
  caulenh.txt | 194 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  1 file changed, 194 insertions(+)
  create mode 100644 caulenh.txt
+câu 7
+$ mkdir main_folder
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ cd main_folder
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/main_folder (main)
+$ touch main_txt_1.txt main_txt_2.txt main_txt_3.txt
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/main_folder (main)
+$ git add .
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/main_folder (main)
+$ git commit -m " day la main_foler"
+[main 4a5044a]  day la main_foler
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txtAdmin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/main_folder (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1.22 KiB | 33.00 KiB/s, done.
+From https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt
+ * branch            main       -> FETCH_HEAD
+   4677b39..c214b80  main       -> origin/main
+Merge made by the 'ort' strategy.
+ caulenh.txt | 26 ++++++++++++++++++++++++++
+ 1 file changed, 26 insertions(+)
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/main_folder (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 761 bytes | 761.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt.git
+   c214b80..140451a  main -> main
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/main_folder (main)
+$ git pull origin main
+From https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+câu 8
+
+
+
 
