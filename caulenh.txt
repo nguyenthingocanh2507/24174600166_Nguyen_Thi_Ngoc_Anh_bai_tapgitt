@@ -316,7 +316,84 @@ Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai
 $ git branch -D branch_5
 Deleted branch branch_5 (was 9bce639).
 câu 9 làm trên pull request
+câu 10
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
 
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ git branch -d branch_2
+warning: deleting branch 'branch_2' that has been merged to
+         'refs/remotes/origin/branch_2', but not yet merged to HEAD
+Deleted branch branch_2 (was e221080).
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ git branch -d branch_3
+warning: deleting branch 'branch_3' that has been merged to
+         'refs/remotes/origin/branch_3', but not yet merged to HEAD
+Deleted branch branch_3 (was b15d83d).
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ git branch -d branch_4
+error: branch 'branch_4' not found
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$  git push origin --delete branch_2
+To https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt.git
+ - [deleted]         branch_2
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ git push origin --delete branch_3
+To https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt.git
+ - [deleted]         branch_3
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ git push origin --delete branch_4
+To https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt.git
+ - [deleted]         branch_4
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+Your branch is up to date with 'origin/branch_1'.
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (branch_1)
+$ git pull origin main
+remote: Enumerating objects: 34, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 29 (delta 13), reused 7 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (29/29), 8.93 KiB | 228.00 KiB/s, done.
+From https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt
+ * branch            main       -> FETCH_HEAD
+   140451a..877680a  main       -> origin/main
+Updating bf054d5..877680a
+Fast-forward
+ caulenh.txt                   | 324 ++++++++++++++++++++++++++++++++++++++++++
+ main_folder/main_txt_1.txt    |   0
+ main_folder/main_txt_2.txt    |   0
+ main_folder/main_txt_3.txt    |   0
+ main_folder/text_branch_1.txt |   8 ++
+ text_branch_2.txt             |   1 +
+ text_branch_3.txt             |   1 +
+ text_branch_4.txt             |   1 +
+ 8 files changed, 335 insertions(+)
+ create mode 100644 caulenh.txt
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+ create mode 100644 main_folder/text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (branch_1)
+$ git pull origin main
+From https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt
+ * branch            main       -> FETCH_HEAD
+Already up to date.
 
 
 
