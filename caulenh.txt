@@ -192,3 +192,29 @@ To https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_t
  * [new branch]      branch_4 -> branch_4
 branch 'branch_4' set up to track 'origin/branch_4'.
 câu 4
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 49aa164).
+
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+câu 5 
+Admin@Admin-PC MINGW64 ~/OneDrive/New folder/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt (main)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 2.52 KiB | 287.00 KiB/s, done.
+From https://github.com/nguyenthingocanh2507/24174600166_Nguyen_Thi_Ngoc_Anh_bai_tapgitt
+   47f20a7..4677b39  main       -> origin/main
+Updating 47f20a7..4677b39
+Fast-forward
+ caulenh.txt | 194 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 194 insertions(+)
+ create mode 100644 caulenh.txt
+
